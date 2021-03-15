@@ -9,7 +9,15 @@ main {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    background-color: #1bbc9b;
+    background-color: #0bca8b;
+}
+
+p {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    font-family: sans-serif;
 }
 
 .imagem {
@@ -64,14 +72,7 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     color: whitesmoke;
-    font-weight: bold;
-}
-
-h4 {
-    text-align: center;
-    padding: 2rem;
-    margin-bottom: 15px;
-    color: whitesmoke;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -83,14 +84,16 @@ h4 {
 }
 
 .formulario>article {
-    padding: 16px;
+    padding: 18px;
     text-align: center;
-    font-size: 1.75rem;
-    font-weight: bold
+    font-size: 1.90rem;
+    font-weight: bold;
+    color: #2d3e50
 }
 
 .info {
-    padding-top: 16;
+    padding-top: 20px;
+    margin-top: 20px;
     display: flex;
     flex-flow: column wrap;
     width: 40%;
@@ -108,12 +111,11 @@ h4 {
 
 button {
     margin-top: 10px;
-    width: 5rem;
-    background-color: #1bbc9b;
+    width: 6rem;
+    background-color: #0bca8b;
     padding: 12px 2px;
     border-radius: 6px;
     color: whitesmoke;
-    box-shadow: none;
     border: none;
     cursor: pointer;
 }
